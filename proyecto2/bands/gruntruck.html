@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Las mejores bandas Grunge Seattle</title>
+        <meta name="description" content="las mejores bandas de grunge">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light|Special+Elite" rel="stylesheet">
+        <link rel="stylesheet" href="../assets/fontawesome-free-5.3.1-web/css/all.min.css">
+        <link rel="stylesheet" href="../assets/css/normalize.css">
+        <link rel="stylesheet" href="../assets/css/animate.css">
+        <link rel="stylesheet" href="../assets/css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="content animated fadeInRight">
+                <div class="actions">
+                    <a href="../index.html" class="close">
+                        <span>X</span>
+                    </a>
+                </div>
+                <header>
+                    <div class="title-item">
+                        <h2>
+                        <span class="position">10</span>
+                        Gruntruck
+                        </h2>
+                    </div>
+                    <section>
+                        <div class="underline">
+                            <div class="center">
+                                <div class="inline item-image">
+                                    <img src="../assets/images/gruntruck.png" alt="banda-grntrck" height="150px">
+                                </div>
+                                <div class="inline" id="video">
+                                    <iframe src="https://www.youtube.com/embed/MK73Y-W8JJg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text">
+                            <p class="paragraph">Banda formada en 1989 por los ex-miembros de Skin Yard Ben McMillan y Scott McCullum. A ellos se unieron Tommy Niemeyer guitarrista ex The Accüsed y Tim Paul para cerrar definitivamente su formación. Sin embargo, McCullum fue testigo solamente de la formación del grupo, ya que fue al poco sustituido por Norman Scott. El estilo de la banda está englobado dentro del grunge, si bien es cierto que se orientaron más hacia su vertiente heavy metal.</p>
+                        </div>
+                    </section>
+                </header>
+            </div>
+        </div>
+        <script src="../assets/scripts/main.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            var videos = ['https://www.youtube.com/embed/MK73Y-W8JJg', 'https://www.youtube.com/embed/jk_hjsPE6T0', 'https://www.youtube.com/embed/2trq-rMPXOY'];
+            
+            $("#video").html('<iframe src="' + videos[Math.floor(Math.random()*videos.length)] + '" frameborder="0" allowfullscreen></iframe>');
+        </script>
+    </body>
+</html>
