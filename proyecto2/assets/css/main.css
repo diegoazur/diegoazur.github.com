@@ -149,11 +149,11 @@ td:nth-of-type(1) {
 iframe {
     width: 75vw;
 }
-@media(max-width:899px){
+/*@media(max-width:899px){
     iframe {
         width: 55vw;
         }  
-}
+}*/
 @media(min-width:900px){
     th {
         display: table-cell;
